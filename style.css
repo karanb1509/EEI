@@ -1,0 +1,113 @@
+html {
+    position: relative;
+    background-image: url("bg3.jpg");
+    opacity: 0.85;
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+.nav-wrapper{
+    background-color: blueviolet;
+
+    
+}
+.nav-wrapper a{
+     color: rgb(202, 245, 11);
+
+}
+.sidebar {
+  grid-area: sidebar;
+  
+
+}
+.container {
+  
+  position: absolute;
+  /* background-image: url("bg3.jpg"); */
+  background-repeat: repeat-y;
+  background-size: cover;
+  width: 100%;
+  
+}
+
+
+.content {
+  grid-area: content;
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+  width: 100%;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+  "....... header header"
+  "sidebar content content"
+  "sidebar content content"
+  "footer  footer  footer";
+  
+}
+
+
+.box {
+
+border-radius: 5px;
+padding: 20px;
+font-size: 150%;
+}
+
+
+.card {
+  height: 280px;
+  width: 200px;
+  float: center;
+  background: linear-gradient(to right,green , red);
+}
+h1 {
+  color: brown;
+  
+}
+.text {
+  color: rgb(8, 0, 0);
+  font-size: 2rem;
+  font-weight: 150%;
+  border: 5px dashed gray;
+  padding-left: 7px; 
+}
+.text ul {
+  list-style-image: url("icon.jpg");
+  float: right;
+
+
+  
+}
+li {
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+#remove {
+  border: none;
+}
+
+
+.page-footer {
+  background-color: blueviolet ;
+  width: 100vw;
+  
+ 
+}
+.page-footer a{
+  text-decoration-color: yellow;
+
+}
+.material-icons {
+  padding-right: 1rem;
+}  
